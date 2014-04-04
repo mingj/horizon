@@ -159,6 +159,9 @@ INSTALLED_APPS = [
 ]
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+#geiao
+#this is authentication_backends use openstack_auth.backend,KeystoneBackend, not django default
 AUTHENTICATION_BACKENDS = ('openstack_auth.backend.KeystoneBackend',)
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 

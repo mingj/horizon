@@ -696,6 +696,8 @@ class Site(Registry, HorizonComponent):
         it will default to the settings.LOGIN_REDIRECT_URL value.
         """
         user_home = self._conf['user_home']
+
+        LOG.info('user_home:%s'%user_home)
         if user_home:
             if callable(user_home):
                 return user_home(user)
