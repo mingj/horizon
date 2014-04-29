@@ -1,32 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="init&#10;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/db.sqlite3" afterPath="$PROJECT_DIR$/../oakcloud/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/enabled/_40_router.py" afterPath="$PROJECT_DIR$/openstack_dashboard/enabled/_40_router.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/admin.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/dashboard.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/dashboard.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.js" afterPath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" afterPath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" afterPath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" />
+    <list default="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/administor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/logo/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/logo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/student.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/activity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/addbehavior.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/addcomperformance_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/adddevelopment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/behavior.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/classcomperformances.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/comperformance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.jCombo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/comperformance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/comperformance_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletebehavior.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/deletecomperformance_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletedevelopment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/development.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/editbehavior.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/editcomperformance_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/editdevelopment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/libs/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/datatables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/selectdevelopment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/studentcomperformance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/updateselect.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/horizon.iml" afterPath="$PROJECT_DIR$/.idea/horizon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/templates/oak/leftmenu.html" afterPath="$PROJECT_DIR$/../oakcloud/oak/templates/oak/leftmenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/models.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/leftmenu.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/leftmenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/login.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/templates/oak/network/network.html" afterPath="$PROJECT_DIR$/../oakcloud/oak/templates/oak/network/network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" afterPath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/urls.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/network/urls.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/network/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/.venv/lib/python2.7/site-packages/django/contrib/auth/views.py" afterPath="$PROJECT_DIR$/../oakcloud/.venv/lib/python2.7/site-packages/django/contrib/auth/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="horizon.iws" />
@@ -50,12 +112,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nvr.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nvr.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.59057075" vertical-offset="752" max-vertical-offset="1155">
+            <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1155">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032967035" vertical-offset="0" max-vertical-offset="455">
               <folding>
-                <element signature="e#60#123#0" expanded="true" />
+                <element signature="e#22#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,30 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="74" selection-start="418" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="510">
-              <folding>
-                <element signature="e#59#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="display.table.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="169" column="0" selection-start="6930" selection-end="6930" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -114,15 +183,6 @@
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.widget.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -234,6 +294,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="horizon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oakcloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -245,7 +315,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oakcloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ComPerformance/webadmin/.venv/bin/python2.7" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
@@ -489,13 +559,40 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="webadmin" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../ComPerformance/webadmin/.venv/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webadmin" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="DJANGO_SETTINGS_MODULE=settings" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Django server.horizon" />
       <item index="1" class="java.lang.String" itemvalue="Django server.oakcloud" />
+      <item index="2" class="java.lang.String" itemvalue="Django server.webadmin" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -510,7 +607,114 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/captcha" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/bootstrap" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/css" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/example" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/images" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/js" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/datatables/extra" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/jCombo" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/captcha" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/bootstrap" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/css" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/example" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/images" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/js" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/datatables/extra" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/jCombo" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -522,14 +726,19 @@
       <created>1398066450536</created>
       <updated>1398066450536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init&#10;&#10;">
+      <created>1398748955598</created>
+      <updated>1398748955598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1391" height="904" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -544,7 +753,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -563,27 +771,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="init&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="init&#10;" />
+    <MESSAGE value="init&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="init&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/local/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="21" selection-start="11198" selection-end="11198" vertical-scroll-proportion="0.0" vertical-offset="4380" max-vertical-offset="7515" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/local/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="33" selection-start="11140" selection-end="11140" vertical-scroll-proportion="0.0" vertical-offset="4070" max-vertical-offset="7620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3930" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitreview">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="491" />
@@ -777,7 +971,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="3570">
           <folding>
-            <element signature="e#22#52#0" expanded="true" />
+            <element signature="e#22#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -821,7 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="74" selection-start="418" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="510">
           <folding>
-            <element signature="e#59#110#0" expanded="true" />
+            <element signature="e#59#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,7 +1023,10 @@
     <entry file="file://$PROJECT_DIR$/../oakcloud/oak/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="660">
-          <folding />
+          <folding>
+            <marker date="1398745542914" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1398745542914" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +1076,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.59057075" vertical-offset="752" max-vertical-offset="1155">
+        <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032967035" vertical-offset="0" max-vertical-offset="455">
           <folding>
-            <element signature="e#60#123#0" expanded="true" />
+            <element signature="e#22#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,6 +15,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="temp" />
     <orderEntry type="module" module-name="oakcloud" />
+    <orderEntry type="module" module-name="webadmin" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

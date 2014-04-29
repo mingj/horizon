@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/horizon.iml" filepath="$PROJECT_DIR$/.idea/horizon.iml" />
       <module fileurl="file://$PROJECT_DIR$/../oakcloud/.idea/oakcloud.iml" filepath="$PROJECT_DIR$/../oakcloud/.idea/oakcloud.iml" />
       <module fileurl="file://$USER_HOME$/PycharmProjects/temp/.idea/temp.iml" filepath="$USER_HOME$/PycharmProjects/temp/.idea/temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ComPerformance/webadmin/.idea/webadmin.iml" filepath="$PROJECT_DIR$/../ComPerformance/webadmin/.idea/webadmin.iml" />
     </modules>
   </component>
 </project>
