@@ -7,4 +7,4 @@ ADD_INSTALLED_APPS = [
 ]
 
 # If set to True, this dashboard will not be added to the settings.
-DISABLED = True
+DISABLED = False

@@ -14,7 +14,7 @@ class VizDash(horizon.Dashboard):
     slug = "visualizations"
     panels = (InstanceVisualizations,)
     default_panel = 'flocking'
-    roles = ('admin',)
+    permissions = ('openstack.roles.admin',)
 
 
 horizon.register(VizDash)

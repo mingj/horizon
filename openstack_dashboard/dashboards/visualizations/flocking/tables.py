@@ -1,8 +1,7 @@
 from django.template.defaultfilters import filesizeformat
 from django.utils.translation import ugettext_lazy as _
 
-from openstack_dashboard.dashboards.admin.instances.tables import \
-        AdminUpdateRow
+from openstack_dashboard.dashboards.admin.instances.tables import AdminUpdateRow
 
 from horizon import tables
 
