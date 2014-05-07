@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="">
+    <list default="true" readonly="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/administor.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance" />
@@ -41,6 +41,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules/exporting.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes/gray.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/libs/jquery-1.8.2.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/datatables/jquery.dataTables.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate.js" />
@@ -51,7 +52,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/selectdevelopment.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/studentcomperformance.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/updateselect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/db.sqlite3" afterPath="$PROJECT_DIR$/../oakcloud/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" />
@@ -60,13 +65,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" afterPath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" afterPath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/horizon.iml" afterPath="$PROJECT_DIR$/.idea/horizon.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" />
@@ -75,20 +81,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/models.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" afterPath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/utils.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/utils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="horizon.iws" />
@@ -115,36 +125,9 @@
       <file leaf-file-name="nvr.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1155">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032967035" vertical-offset="0" max-vertical-offset="455">
+            <state line="74" column="68" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1260">
               <folding>
-                <element signature="e#22#72#0" expanded="true" />
+                <element signature="e#60#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,10 +136,57 @@
       <file leaf-file-name="network.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="30" selection-start="1103" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2265">
+            <state line="74" column="4" selection-start="1828" selection-end="1884" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cinder.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/cinder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="177" column="25" selection-start="6483" selection-end="6495" vertical-scroll-proportion="4.139847" vertical-offset="494" max-vertical-offset="4320">
               <folding>
-                <element signature="e#60#123#0" expanded="true" />
+                <element signature="e#909#947#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comperformance.table.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.table.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="15" selection-start="2319" selection-end="4879" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="15525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="7" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2235">
+              <folding>
+                <element signature="e#39#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nvr.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="41" selection-start="3039" selection-end="3039" vertical-scroll-proportion="24.782608" vertical-offset="2115" max-vertical-offset="2670">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,43 +194,7 @@
       <file leaf-file-name="display.table.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="0" selection-start="6930" selection-end="6930" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="945">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.widget.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.widget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oakcloud/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="33" selection-start="4317" selection-end="4317" vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="3315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="114" column="22" selection-start="4548" selection-end="4553" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3540">
               <folding />
             </state>
           </provider>
@@ -220,7 +214,7 @@
       </list>
     </option>
     <option name="SYNC_SETTING" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../oakcloud" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -240,24 +234,34 @@
         <option value="$PROJECT_DIR$/../oakcloud/oak/templates/oak/network/network.html" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/templates/oak/leftmenu.html" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/network/urls.py" />
-        <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.js" />
-        <option value="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/urls.py" />
-        <option value="$PROJECT_DIR$/../oakcloud/oak/models.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py" />
-        <option value="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/admin.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/dashboard.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/templates/tables.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/panel.py" />
+        <option value="$PROJECT_DIR$/jghost/geiao/tests.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/enabled/_60_jghost.py" />
+        <option value="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
+        <option value="$PROJECT_DIR$/../oakcloud/oak/models.py" />
+        <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" />
+        <option value="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" />
+        <option value="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" />
+        <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" />
+        <option value="$PROJECT_DIR$/../oakcloud/oak/utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1391" />
-    <option name="height" value="904" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -285,7 +289,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,6 +309,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,11 +319,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ComPerformance/webadmin/.venv/bin/python2.7" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/venv/bin/python2.7" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -328,10 +333,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr" />
+      <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost" />
       <recent name="$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr" />
       <recent name="$PROJECT_DIR$/openstack_dashboard/local/enabled" />
       <recent name="$PROJECT_DIR$/openstack_dashboard/enabled" />
-      <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.oakcloud">
@@ -508,6 +517,12 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="horizon" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -566,16 +581,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="settings" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../ComPerformance/webadmin/.venv/bin/python2.7" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webadmin" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
-      <option name="additionalOptions" value="DJANGO_SETTINGS_MODULE=settings" />
+      <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
@@ -609,6 +624,7 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -734,25 +750,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1391" height="904" extended-state="6" />
+    <frame x="49" y="24" width="1391" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2698885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28773233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30810094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30810094" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23638779" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -770,6 +786,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="init&#10;" />
     <MESSAGE value="init&#10;&#10;" />
     <option name="LAST_COMMIT_MESSAGE" value="init&#10;&#10;" />
@@ -778,309 +795,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitreview">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="491" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/static/viz/js/boid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4365" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/enabled/_30_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/enabled/_40_router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="309" selection-end="309" vertical-scroll-proportion="0.30405405" vertical-offset="0" max-vertical-offset="444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/local/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="28" selection-start="6829" selection-end="6829" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="7455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/local/enabled/_40_router.py.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="177" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/static/viz/js/d3.v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.6483517" vertical-offset="2115" max-vertical-offset="140220" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/admin/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/local/enabled/_40_router.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="181" selection-end="181" vertical-scroll-proportion="0.12195122" vertical-offset="0" max-vertical-offset="492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/router/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="933" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/enabled/_50_visualizations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.32051283" vertical-offset="0" max-vertical-offset="468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="278" selection-end="292" vertical-scroll-proportion="0.33783785" vertical-offset="0" max-vertical-offset="444" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="443">
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="1143" selection-end="1152" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/panel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tabs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="22" selection-start="2475" selection-end="2493" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/templates/visualizations/flocking/_flocking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/templates/visualizations/flocking/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="462" selection-end="462" vertical-scroll-proportion="0.54371" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/nova.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.859756" vertical-offset="3375" max-vertical-offset="11220" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/swift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-9.152439" vertical-offset="4503" max-vertical-offset="4995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3101" selection-end="3101" vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oakcloud/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/include.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/leftmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="123" selection-start="561" selection-end="561" vertical-scroll-proportion="-5.2173915" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="3570">
-          <folding>
-            <element signature="e#22#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/network/network.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1825" selection-end="1825" vertical-scroll-proportion="-15.0" vertical-offset="495" max-vertical-offset="2085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1521" selection-end="1521" vertical-scroll-proportion="48.260868" vertical-offset="1935" max-vertical-offset="2670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="74" selection-start="418" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="510">
-          <folding>
-            <element signature="e#59#110#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="660">
-          <folding>
-            <marker date="1398745542914" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1398745542914" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oakcloud/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="33" selection-start="4317" selection-end="4317" vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="3315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="0" selection-start="6930" selection-end="6930" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="30" selection-start="1103" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2265">
-          <folding>
-            <element signature="e#60#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
@@ -1090,16 +804,324 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.032967035" vertical-offset="0" max-vertical-offset="455">
+        <state line="14" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="1880" selection-end="1888" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="5115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/dashboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/panel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="277" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="246" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tabs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="363" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/templates/visualizations/flocking/_flocking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="6" selection-start="853" selection-end="853" vertical-scroll-proportion="-21.52174" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jghost/geiao/panel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jghost/geiao/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/local/lib/python2.7/site-packages/neutronclient/v2_0/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1227" column="0" selection-start="48390" selection-end="48390" vertical-scroll-proportion="0.0" vertical-offset="18066" max-vertical-offset="19035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/templates/geiao/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="82" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/panel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="24" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/enabled/_60_jghost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oakcloud/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="3330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/migrations/0002_auto__add_field_factory_substreamform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="690">
           <folding>
-            <element signature="e#22#72#0" expanded="true" />
+            <marker date="1399430196222" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="87" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="20" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="3030">
+          <folding>
+            <element signature="e#39#81#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="41" selection-start="3039" selection-end="3039" vertical-scroll-proportion="24.782608" vertical-offset="2115" max-vertical-offset="2670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="72" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.21042085" vertical-offset="495" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="22" selection-start="4548" selection-end="4553" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/utils/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="4" selection-start="4556" selection-end="4556" vertical-scroll-proportion="0.59195405" vertical-offset="1416" max-vertical-offset="3885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="208" selection-end="230" vertical-scroll-proportion="-0.7367387" vertical-offset="450" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="4" selection-start="1828" selection-end="1884" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="3" selection-start="1628" selection-end="2383" vertical-scroll-proportion="0.29469547" vertical-offset="360" max-vertical-offset="3405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="68" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1260">
+          <folding>
+            <element signature="e#60#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="15" selection-start="2319" selection-end="4879" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="15525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="7" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2235">
+          <folding>
+            <element signature="e#39#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/cinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="25" selection-start="6483" selection-end="6495" vertical-scroll-proportion="4.139847" vertical-offset="494" max-vertical-offset="4320">
+          <folding>
+            <element signature="e#909#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
