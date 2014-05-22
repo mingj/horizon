@@ -1,3 +1,4 @@
+#-*-coding:utf-8-*-
 # vim: tabstop=4 shiftwidth=4 softtabstop=4
 
 # Copyright 2012 Nebula, Inc.
@@ -41,10 +42,22 @@ def wrap_delimiter(name):
     return name
 
 
+# 查看容器详情
 class ViewContainer(tables.LinkAction):
     name = "view"
     verbose_name = _("View Details")
     url = "horizon:project:containers:container_detail"
+    classes = ("ajax-modal", "btn-view")
+
+    def get_link_url(self, datum=None):
+        obj_id = self.table.get_object_id(datum)
+        args = (http.urlquote(obj_id),)
+        return reverse(self.url, args=args)
+# 查看容器详情
+class ViewContainerID(tables.LinkAction):
+    name = "viewcontainerid"
+    verbose_name = _("View Container ID")
+    url = "horizon:project:containers:container_detail_id"
     classes = ("ajax-modal", "btn-view")
 
     def get_link_url(self, datum=None):
@@ -131,6 +144,13 @@ class CreateContainer(tables.LinkAction):
     url = "horizon:project:containers:create"
     classes = ("ajax-modal", "btn-create")
 
+#虽然创建这个按钮 在调用view的时候还是使用的原先的function  所以没什么差别
+class CreateContainer2(tables.LinkAction):
+    name = "create2"
+    verbose_name = _("Create Container2")
+    url = "horizon:project:containers:create2"
+    classes = ("ajax-modal", "btn-create")
+
 
 class ListObjects(tables.LinkAction):
     name = "list_objects"
@@ -201,7 +221,7 @@ class UploadObject(tables.LinkAction):
         # styles meant for the table action version.
         self.attrs = {'class': 'ajax-modal'}
 
-
+#获取使用量
 def get_size_used(container):
     return filters.filesizeformat(container.bytes)
 
@@ -210,7 +230,7 @@ def get_container_link(container):
     return reverse("horizon:project:containers:index",
                    args=(http.urlquote(wrap_delimiter(container.name)),))
 
-
+#静态刷新row container列
 class ContainerAjaxUpdateRow(tables.Row):
     ajax = True
 
@@ -256,8 +276,8 @@ class ContainersTable(tables.DataTable):
         verbose_name = _("Containers")
         row_class = ContainerAjaxUpdateRow
         status_columns = ['metadata_loaded', ]
-        table_actions = (CreateContainer,)
-        row_actions = (ViewContainer, MakePublicContainer,
+        table_actions = (CreateContainer,CreateContainer2,)
+        row_actions = (ViewContainer,ViewContainerID, MakePublicContainer,
                        MakePrivateContainer, DeleteContainer,)
         browser_table = "navigation"
         footer = False
@@ -352,6 +372,9 @@ class DownloadObject(tables.LinkAction):
 
     def get_link_url(self, obj):
         container_name = self.table.kwargs['container_name']
+        print "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        print http.urlquote(container_name)
+        print http.urlquote(obj.name)
         return reverse(self.url, args=(http.urlquote(container_name),
                                        http.urlquote(obj.name)))
 

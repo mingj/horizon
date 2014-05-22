@@ -1,3 +1,4 @@
+{#web 顶部#}
 {% load branding i18n %}
 {% load url from future %}
 <h1 class="brand"><a href="{% site_branding_link %}">{% site_branding %}</a></h1>
@@ -8,3 +9,4 @@
   {% endif %}
   <a href="{% url 'logout' %}">{% trans "Sign Out" %}</a>
 </div>
+

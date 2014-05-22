@@ -31,7 +31,13 @@ def get_user_home(user):
 @vary.vary_on_cookie
 def splash(request):
     if request.user.is_authenticated():
-        return shortcuts.redirect(horizon.get_user_home(request.user))
+        test = 1
+        if test == 1:
+            return shortcuts.redirect(horizon.get_user_home(request.user))
+        else:
+            return shortcuts.render(request,"500.html",{})
+
+
     form = views.Login(request)
     request.session.clear()
     request.session.set_test_cookie()

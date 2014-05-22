@@ -124,6 +124,7 @@ class IndexView(tables.DataTableView):
 
 
 class LaunchInstanceView(workflows.WorkflowView):
+
     workflow_class = project_workflows.LaunchInstance
 
     def get_initial(self):

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="">
+    <list default="true" readonly="true" id="8f184b93-e2ec-4d65-90d2-2b70b5dbc41c" name="Default" comment="init&#10;&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/administor.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance" />
@@ -16,6 +16,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/student.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/_container_detail_id.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/_flocking.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/activity.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/addbehavior.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/addcomperformance_setup.html" />
@@ -31,6 +33,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.validate.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.widget.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/comperformance_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/container_detail_id.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletebehavior.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/deletecomperformance_setup.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletedevelopment.html" />
@@ -41,7 +44,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules/exporting.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes/gray.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/libs/jquery-1.8.2.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/datatables/jquery.dataTables.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate.js" />
@@ -52,53 +54,59 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/selectdevelopment.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/studentcomperformance.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/updateselect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/db.sqlite3" afterPath="$PROJECT_DIR$/../oakcloud/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/_header.html" afterPath="$PROJECT_DIR$/horizon/templates/_header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/auth/_login.html" afterPath="$PROJECT_DIR$/horizon/templates/auth/_login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/base.html" afterPath="$PROJECT_DIR$/horizon/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/usage/base.py" afterPath="$PROJECT_DIR$/openstack_dashboard/usage/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" afterPath="$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" afterPath="$PROJECT_DIR$/../oakcloud/logs/django_request_logfile.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/wsgi/django.wsgi" afterPath="$PROJECT_DIR$/openstack_dashboard/wsgi/django.wsgi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/leftmenu.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/leftmenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/login.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/models.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-style.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/mws-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/resultnum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" afterPath="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oakcloud/oak/utils.py" afterPath="$PROJECT_DIR$/../oakcloud/oak/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="horizon.iws" />
@@ -122,79 +130,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nvr.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="68" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1260">
-              <folding>
-                <element signature="e#60#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="network.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="4" selection-start="1828" selection-end="1884" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2100">
+            <state line="34" column="21" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
+            <state line="51" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cinder.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/cinder.py">
+      <file leaf-file-name="500.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/500.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="25" selection-start="6483" selection-end="6495" vertical-scroll-proportion="4.139847" vertical-offset="494" max-vertical-offset="4320">
-              <folding>
-                <element signature="e#909#947#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comperformance.table.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.table.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="15" selection-start="2319" selection-end="4879" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="15525">
+            <state line="3" column="32" selection-start="92" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/class.py">
+      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="7" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2235">
-              <folding>
-                <element signature="e#39#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nvr.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="41" selection-start="3039" selection-end="3039" vertical-scroll-proportion="24.782608" vertical-offset="2115" max-vertical-offset="2670">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.table.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
+      <file leaf-file-name="403.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/403.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="22" selection-start="4548" selection-end="4553" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3540">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5175">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="22" selection-start="5165" selection-end="5165" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="5160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="12" selection-start="4078" selection-end="4079" vertical-scroll-proportion="0.5089286" vertical-offset="978" max-vertical-offset="1650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="35" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="3045">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exceptions.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -219,15 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/panel.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tabs.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/enabled/_50_visualizations.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/enabled/_40_router.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/local/local_settings.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/local/enabled/_40_router.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/dashboard.py" />
         <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/forms.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/urls.py" />
@@ -243,8 +254,6 @@
         <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/templates/tables.py" />
         <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/panel.py" />
         <option value="$PROJECT_DIR$/jghost/geiao/tests.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
-        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
         <option value="$PROJECT_DIR$/openstack_dashboard/enabled/_60_jghost.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oakcloud/settings.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/models.py" />
@@ -254,6 +263,33 @@
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py" />
         <option value="$PROJECT_DIR$/../oakcloud/oak/utils.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/usage/base.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/utils.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tabs.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/container_detail_id.html" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/_container_detail_id.html" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/browsers.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/wsgi/django.wsgi" />
+        <option value="$PROJECT_DIR$/horizon/templates/_header.html" />
+        <option value="$PROJECT_DIR$/horizon/templates/base.html" />
+        <option value="$PROJECT_DIR$/horizon/templates/auth/_login.html" />
+        <option value="$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/openstack_auth/forms.py" />
+        <option value="$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/forms.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/local/local_settings.py" />
+        <option value="$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/backend.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py" />
+        <option value="$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/views.py" />
+        <option value="$PROJECT_DIR$/openstack_dashboard/views.py" />
       </list>
     </option>
   </component>
@@ -297,16 +333,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="horizon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oakcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -333,17 +359,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers" />
+      <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao" />
       <recent name="$PROJECT_DIR$/../oakcloud/oak/plugins/nvr" />
       <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost" />
       <recent name="$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr" />
-      <recent name="$PROJECT_DIR$/openstack_dashboard/local/enabled" />
-      <recent name="$PROJECT_DIR$/openstack_dashboard/enabled" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.oakcloud">
+  <component name="RunManager" selected="Django server.horizon">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -749,30 +775,71 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1391" height="876" extended-state="6" />
+    <frame x="49" y="24" width="1391" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28773233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30855018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30810094" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23638779" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34149486" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30810094" sideWeight="0.50037175" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49962825" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28624535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39257294" sideWeight="0.49962825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -795,334 +862,278 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/urls.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/settings.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/panel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/manage.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_rebuild.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_flavors_and_quotas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.65217394" vertical-offset="450" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_detail_overview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="74.434784" vertical-offset="1712" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_detail_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_detail_console.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_decryptpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.173913" vertical-offset="257" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_launch_advanced_help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_instance_ips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_launch_customize_help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_launch_details_help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_launch_network_help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_launch_volumes_help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/_update_networks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.826087" vertical-offset="295" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/decryptpassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="225" selection-end="225" vertical-scroll-proportion="-3.9130435" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/templates/instances/rebuild.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/templates/horizon/common/_workflow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.173914" vertical-offset="533" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/templates/horizon/common/_workflow_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/templates/horizon/common/_workflow_step.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/templates/horizon/common/_workflow_step_update_members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.913044" vertical-offset="458" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/workflows/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.3923445" vertical-offset="2672" max-vertical-offset="3090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizon/workflows/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5580" max-vertical-offset="12810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="1880" selection-end="1888" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="5115" />
+        <state line="275" column="31" selection-start="10549" selection-end="10549" vertical-scroll-proportion="0.0" vertical-offset="3780" max-vertical-offset="5205" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/dashboard.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/__init__.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/workflows/create_instance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
+        <state line="664" column="33" selection-start="29239" selection-end="29239" vertical-scroll-proportion="0.0" vertical-offset="10226" max-vertical-offset="11070" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/panel.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tables.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/policy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="277" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2265" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/test_data.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/context_processors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3360" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/urls.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state line="70" column="48" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="3930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="35" selection-start="8007" selection-end="8007" vertical-scroll-proportion="0.0" vertical-offset="3226" max-vertical-offset="12600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="246" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/tabs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="363" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/templates/visualizations/flocking/_flocking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="853" selection-end="853" vertical-scroll-proportion="-21.52174" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jghost/geiao/panel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jghost/geiao/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.venv/local/lib/python2.7/site-packages/neutronclient/v2_0/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1227" column="0" selection-start="48390" selection-end="48390" vertical-scroll-proportion="0.0" vertical-offset="18066" max-vertical-offset="19035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/templates/geiao/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="82" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5010">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tests.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
+        <state line="120" column="8" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.33333334" vertical-offset="1485" max-vertical-offset="8280" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/contrib/auth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="38" selection-start="7218" selection-end="7218" vertical-scroll-proportion="1.3426396" vertical-offset="1916" max-vertical-offset="5205" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-0.60181" vertical-offset="566" max-vertical-offset="4080" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.13986014" vertical-offset="0" max-vertical-offset="2145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="22" selection-start="5165" selection-end="5165" vertical-scroll-proportion="0.0" vertical-offset="1800" max-vertical-offset="5160">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/urls.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+        <state line="69" column="35" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.0" vertical-offset="977" max-vertical-offset="3045">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="3" column="32" selection-start="92" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/panel.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/templates/403.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="24" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/enabled/_60_jghost.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="51" column="5" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/__init__.py">
+    <entry file="file://$PROJECT_DIR$/openstack_dashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
+        <state line="34" column="21" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/forms.py">
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python2.7/site-packages/openstack_auth/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="97" column="12" selection-start="4078" selection-end="4079" vertical-scroll-proportion="0.5089286" vertical-offset="978" max-vertical-offset="1650">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="523">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oakcloud/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="3330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/migrations/0002_auto__add_field_factory_substreamform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="690">
-          <folding>
-            <marker date="1399430196222" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="87" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="3030">
-          <folding>
-            <element signature="e#39#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/templates/oak/nvr/nvr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="41" selection-start="3039" selection-end="3039" vertical-scroll-proportion="24.782608" vertical-offset="2115" max-vertical-offset="2670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="72" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.21042085" vertical-offset="495" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/static/oak/js/display/display.table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="22" selection-start="4548" selection-end="4553" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/venv/local/lib/python2.7/site-packages/django/utils/cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="4" selection-start="4556" selection-end="4556" vertical-scroll-proportion="0.59195405" vertical-offset="1416" max-vertical-offset="3885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="208" selection-end="230" vertical-scroll-proportion="-0.7367387" vertical-offset="450" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/network/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="4" selection-start="1828" selection-end="1884" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="2100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="3" selection-start="1628" selection-end="2383" vertical-scroll-proportion="0.29469547" vertical-offset="360" max-vertical-offset="3405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/nvr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="68" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1260">
-          <folding>
-            <element signature="e#60#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="15" selection-start="2319" selection-end="4879" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="15525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ComPerformance/webadmin/engine/class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2235">
-          <folding>
-            <element signature="e#39#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../oakcloud/oak/plugins/nvr/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openstack_dashboard/api/cinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="25" selection-start="6483" selection-end="6495" vertical-scroll-proportion="4.139847" vertical-offset="494" max-vertical-offset="4320">
-          <folding>
-            <element signature="e#909#947#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

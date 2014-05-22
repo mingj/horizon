@@ -19,9 +19,9 @@ class IndexView(tabs.TabbedTableView):
     def get(self, request, *args, **kwargs):
         if self.request.is_ajax() and self.request.GET.get("json", False):
             try:
-                instances = utils.get_instances_data(self.request)
+                # instances = utils.get_instances_data(self.request)
                 # Uncomment the following line to use fake test data.
-                #instances = utils.get_fake_instances_data(self.request)
+                instances = utils.get_fake_instances_data(self.request)
             except:
                 instances = []
                 exceptions.handle(request,

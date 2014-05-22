@@ -23,6 +23,7 @@
       <span class="help-inline"><p>{{ request.COOKIES.logout_reason }}</p></span>
     </div>
     {% endif %}
+
     {% if next %}<input type="hidden" name="{{ redirect_field_name }}" value="{{ next }}" />{% endif %}
     {% include "horizon/common/_form_fields.html" %}
   </fieldset>

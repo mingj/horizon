@@ -68,7 +68,8 @@ def calculate_ages(instances):
 def get_fake_instances_data(request):
     import json
     from novaclient.v1_1.servers import Server, ServerManager
-    from horizon.api.nova import Server as HServer
+    # from horizon.api.nova import Server as HServer
+    from openstack_dashboard.api.nova import Server as HServer
     instances = [HServer(Server(ServerManager(None), i), request)
                  for i in json.loads(test_json)]
     for i in instances:

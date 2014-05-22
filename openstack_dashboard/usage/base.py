@@ -190,7 +190,8 @@ class BaseUsage(object):
         except Exception:
             exceptions.handle(self.request,
                               _("Unable to retrieve limit information."))
-        self.get_neutron_limits()
+        #log this
+        # self.get_neutron_limits()
         self.get_cinder_limits()
 
     def get_usage_list(self, start, end):

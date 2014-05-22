@@ -1,3 +1,4 @@
+#-*-coding:utf-8-*-
 # vim: tabstop=4 shiftwidth=4 softtabstop=4
 
 # Copyright 2012 United States Government as represented by the
@@ -54,7 +55,7 @@ def for_url(container_name):
     container_name = tables.wrap_delimiter(container_name)
     return utils_http.urlquote(container_name)
 
-
+#containerview 展示:
 class ContainerView(browsers.ResourceBrowserView):
     browser_class = project_browsers.ContainerBrowser
     template_name = "project/containers/index.html"
@@ -283,6 +284,31 @@ class ContainerDetailView(forms.ModalFormMixin, generic.TemplateView):
         context = super(ContainerDetailView, self).get_context_data(**kwargs)
         context['container'] = self.get_object()
         return context
+
+class ContainerDetailViewID(forms.ModalFormMixin, generic.TemplateView):
+    template_name = 'project/containers/container_detail_id.html'
+
+    @memoized.memoized_method
+    def get_object(self):
+        try:
+            return api.swift.swift_get_container(
+                self.request,
+                self.kwargs["container_name"],
+                with_data=False)
+        except Exception:
+            redirect = reverse("horizon:project:containers:index")
+            exceptions.handle(self.request,
+                              _('Unable to retrieve details.'),
+                              redirect=redirect)
+
+    def get_context_data(self, **kwargs):
+        context = super(ContainerDetailViewID, self).get_context_data(**kwargs)
+        context['container'] = self.get_object()
+        print context
+        return context
+
+
+
 
 
 class ObjectDetailView(forms.ModalFormMixin, generic.TemplateView):

@@ -35,10 +35,19 @@ urlpatterns = patterns(VIEW_MOD,
         views.CreateView.as_view(),
         name='create'),
 
+    url(r'^(?P<container_name>(.+/)+)?create2$',
+        views.CreateView.as_view(),
+        name='create2'),
+
     url(r'^(?P<container_name>.+?)/(?P<subfolder_path>(.+/)+)'
             '?container_detail$',
         views.ContainerDetailView.as_view(),
         name='container_detail'),
+
+    url(r'^(?P<container_name>.+?)/(?P<subfolder_path>(.+/)+)'
+            '?container_detail_id$',
+        views.ContainerDetailViewID.as_view(),
+        name='container_detail_id'),
 
     url(r'^(?P<container_name>[^/]+)/(?P<object_path>.+)/object_detail$',
         views.ObjectDetailView.as_view(),

@@ -1,3 +1,4 @@
+{#web 的基础架构, #}
 {% load branding i18n %}
 <!DOCTYPE html>
 <html>
@@ -6,6 +7,7 @@
     {% include "horizon/_custom_meta.html" %}
     <title>{% block title %}{% endblock %} - {% site_branding %}</title>
     {% comment %} Load CSS sheets before Javascript  {% endcomment %}
+
     {% block css %}
       {% include "_stylesheets.html" %}
     {% endblock %}

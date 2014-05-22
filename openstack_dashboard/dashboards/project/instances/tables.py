@@ -70,7 +70,7 @@ def is_deleting(instance):
         return False
     return task_state.lower() == "deleting"
 
-
+#terminate instance
 class TerminateInstance(tables.BatchAction):
     name = "terminate"
     action_present = _("Terminate")
@@ -93,7 +93,7 @@ class TerminateInstance(tables.BatchAction):
     def action(self, request, obj_id):
         api.nova.server_delete(request, obj_id)
 
-
+#reboot instance
 class RebootInstance(tables.BatchAction):
     name = "reboot"
     action_present = _("Hard Reboot")
@@ -120,7 +120,7 @@ class RebootInstance(tables.BatchAction):
     def action(self, request, obj_id):
         api.nova.server_reboot(request, obj_id, soft_reboot=False)
 
-
+#soft reboot instance
 class SoftRebootInstance(RebootInstance):
     name = "soft_reboot"
     action_present = _("Soft Reboot")
@@ -224,12 +224,15 @@ class LaunchLink(tables.LinkAction):
     def allowed(self, request, datum):
         try:
             limits = api.nova.tenant_absolute_limits(request, reserved=True)
+            LOG.info("================================launchlink=====================================================")
+            LOG.info(limits)
 
             instances_available = limits['maxTotalInstances'] \
                 - limits['totalInstancesUsed']
             cores_available = limits['maxTotalCores'] \
                 - limits['totalCoresUsed']
             ram_available = limits['maxTotalRAMSize'] - limits['totalRAMUsed']
+            instances_available = 0
 
             if instances_available <= 0 or cores_available <= 0 \
                     or ram_available <= 0:
