@@ -16,8 +16,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/modules" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/images/comperformance/student.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/highcharts/themes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/_container_detail_id.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/_flocking.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/activity.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/addbehavior.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/addcomperformance_setup.html" />
@@ -33,7 +31,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.validate.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/comperformance/comperformance.widget.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/comperformance_setup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/templates/containers/container_detail_id.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletebehavior.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/deletecomperformance_setup.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/activity/deletedevelopment.html" />
@@ -55,27 +52,20 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/studentcomperformance.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/comperformance/style.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/comperformance/updateselect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/_header.html" afterPath="$PROJECT_DIR$/horizon/templates/_header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/auth/_login.html" afterPath="$PROJECT_DIR$/horizon/templates/auth/_login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/addassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/addclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/addstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horizon/templates/base.html" afterPath="$PROJECT_DIR$/horizon/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/usage/base.py" afterPath="$PROJECT_DIR$/openstack_dashboard/usage/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/accounts/change_password.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/deleteassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/deleteclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/deletestudent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/wsgi/django.wsgi" afterPath="$PROJECT_DIR$/openstack_dashboard/wsgi/django.wsgi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/assessment/editassessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/class/editclass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/editstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/custom-plugins/fileinput.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/templates/jghost/geiao/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/templates/student/initstudent.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/jui/css/jquery.ui.button.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/plugins/validate/jquery.validate-min.js" />
@@ -92,21 +82,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/captcha/conf/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/student.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/tables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/tables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/tabs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/engine/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/css/themer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/static/js/core/themer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" afterPath="$PROJECT_DIR$/../ComPerformance/webadmin/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/jghost/geiao/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/containers/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/project/instances/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" afterPath="$PROJECT_DIR$/openstack_dashboard/dashboards/visualizations/flocking/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="horizon.iws" />
@@ -772,7 +751,11 @@
       <created>1398748955598</created>
       <updated>1398748955598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init&#10;&#10;">
+      <created>1400746747878</created>
+      <updated>1400746747878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -799,6 +782,7 @@
     <frame x="49" y="24" width="1391" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -814,7 +798,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
